@@ -6,6 +6,7 @@
     "node": "8.9.4"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "informed": "^1.10.12",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

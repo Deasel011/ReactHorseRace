@@ -27,7 +27,7 @@ class Horse extends React.Component {
         this.placeWithStep = this.placeWithStep.bind(this);
         this.takeAStep = this.takeAStep.bind(this);
         this.setRandomHorseColor = this.setRandomHorseColor.bind(this);
-        this.takeAStepEachSecond();
+        //this.takeAStepEachSecond();
     }
 
     componentDidMount() {
