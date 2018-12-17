@@ -2,6 +2,7 @@
   "name": "uhorserace",
   "version": "0.1.0",
   "private": true,
+  "engines":{"node": "8.9.4"},
   "dependencies": {
     "informed": "^1.10.12",
     "react": "^16.6.3",
