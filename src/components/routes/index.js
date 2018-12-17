@@ -1,16 +1,20 @@
 import React, {Component} from 'react';
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
 import Landing from '../landing';
+import Game from '../game';
+import Room from '../room';
 
 class routes extends Component {
     render(){
         return (
-            <HashRouter>
+            <BrowserRouter>
                 <Switch>
+                    <Route path="/game" component={Game} />
+                    <Route path="/room/:room_id" component={Room}/>
                     <Route path="/" component={Landing} />
                 </Switch>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
