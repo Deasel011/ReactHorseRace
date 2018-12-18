@@ -28,6 +28,7 @@ class Landing extends React.Component{
                         Talk to me Goose!
                     </button>
                 </Form>
+                <button onClick={this.props.history.push('/game')}>Room</button>
             </div>
         )
     }
