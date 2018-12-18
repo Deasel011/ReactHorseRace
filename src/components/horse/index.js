@@ -82,10 +82,10 @@ class Horse extends React.Component {
                 this.takeAStep();
                 if(this.state.lapsToWin <= this.state.lap){
                     this.setState({finished:true});
-                    this.updateStepsTaken({finished:true,timeInMillis:Date.now()%50000,steps:this.state.step});
+                    this.updateStepsTaken({finished:true,timeInMillis:Date.now()%900000,steps:this.state.step});
                 }else {
                     this.takeAStepFromApi();
-                    this.updateStepsTaken({timeInMillis:Date.now()%50000,steps:this.state.step});
+                    this.updateStepsTaken({timeInMillis:Date.now()%900000,steps:this.state.step});
                 }
             }).catch(err=>{
                 console.log(this.state.name+" just stumbled...");
