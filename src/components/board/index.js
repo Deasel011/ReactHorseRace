@@ -57,7 +57,7 @@ class Board extends React.Component {
                     style={{position: "absolute", left: width}}
                     showPagination={false}
                     loadingText=""
-                    defaultSorted={[{id:'position.steps'},{id:'position.timeInMillis', desc:false}]}
+                    defaultSorted={[{id:'position.steps', desc:true},{id:'position.timeInMillis', desc:false}]}
                 />
             )
         }

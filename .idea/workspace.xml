@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4087288-2e11-4717-b7a5-f4bdd46d1f1a" name="Default Changelist" comment="starts on start!!!">
       <change afterPath="$PROJECT_DIR$/build/static/js/runtime~main.229c360f.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.69dee8e5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d4663d5d.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/board/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/horse/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/horse/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +55,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="js" value="11659" />
+          <entry key="js" value="11672" />
           <entry key="json" value="7" />
           <entry key="txt" value="107" />
         </counts>
@@ -69,7 +64,7 @@
         <counts>
           <entry key="HTML" value="6" />
           <entry key="JSON" value="7" />
-          <entry key="JavaScript" value="11653" />
+          <entry key="JavaScript" value="11666" />
           <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
@@ -116,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/board/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -318,7 +313,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544916014826</updated>
       <workItem from="1544916015930" duration="11166000" />
-      <workItem from="1544978319747" duration="53718000" />
+      <workItem from="1544978319747" duration="54038000" />
     </task>
     <task id="LOCAL-00001" summary="james">
       <created>1544922848037</created>
@@ -383,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545115702008</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="starts on start!!!">
+      <created>1545119075927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545119075927</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64884000" />
+    <option name="totallyTimeSpent" value="65204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="860" height="1047" extended-state="0" />
@@ -592,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/board/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
