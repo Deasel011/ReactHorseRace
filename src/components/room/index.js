@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import Track from "../track";
+import Board from "../board";
 import axios from 'axios';
+import StartButton from "../startbutton";
 
 const Background = styled.div`
   background-color:green;
@@ -16,8 +18,8 @@ class Room extends React.Component{
     constructor(){
         super();
 
-        this.state={room_id:0, race_started:false, horses:[]};
-
+        this.state={room_id:0, race_started:false, horses:[], inProgress:false};
+        this.startRace = this.startRace.bind(this);
         this.obtainGameInfo = this.obtainGameInfo.bind(this)
     }
 
@@ -29,23 +31,30 @@ class Room extends React.Component{
     obtainGameInfo(){
         axios.get(`https://iahorserace.azurewebsites.net//games/`+this.props.match.params.room_id)
             .then(res => {
-                if(!this.state.race_started)
+                if(!this.state.race_started){
                     this.setState({horses:res.data.horses});
-                console.log(res)
+                }
             });
         if(!this.state.race_started){
             setTimeout(()=>{this.obtainGameInfo()}, 5000)
         }
     }
 
+    startRace(){
+        this.setState({inProgress:true,race_started:true})
+    }
+
     render(){
+        let room = this;
         return(
             <div>
                 <h1>
                     A Horse Race Room # {this.state.room_id}
                 </h1>
                 <Background>
-                    <Track horses={this.state.horses}/>
+                    <StartButton inProgress={this.state.inProgress} start={this.startRace}/>
+                    <Board horses={this.state.horses} showResults={this.state.inProgress} roomid={this.state.room_id} pageSize={5}/>
+                    <Track horses={this.state.horses} inProgress={this.state.inProgress} roomid={this.state.room_id}/>
                 </Background>
             </div>
         )

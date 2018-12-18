@@ -51,7 +51,6 @@ class GameLobbyContainer extends React.Component {
     }
 
     render() {
-        console.log(this.state);
         if (this.state.horse != null) {
             return <div>
                 <h2>{this.state.horse.charAt(0).toUpperCase() + this.state.horse.slice(1)}</h2>
