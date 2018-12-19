@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4087288-2e11-4717-b7a5-f4bdd46d1f1a" name="Default Changelist" comment="working">
+      <change afterPath="$PROJECT_DIR$/build/precache-manifest.ee3c667c801b7d71195844605e19eb41.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/1.eb6bf20d.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/1.eb6bf20d.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.3d9ff754.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/main.3d9ff754.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/1.f2c18743.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/1.f2c18743.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.bc5eafed.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.bc5eafed.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/logo.ee7cd8ed.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/board/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/board/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/room/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/room/index.js" afterDir="false" />
     </list>
@@ -80,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -149,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/track/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-115">
-              <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -161,7 +174,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/room/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="446">
-              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -440,21 +453,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75539000" />
+    <option name="totallyTimeSpent" value="75790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969843" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50060314" side_tool="true" visible="true" weight="0.3295838" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50060314" side_tool="true" visible="true" weight="0.3295838" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49939686" visible="true" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49939686" visible="true" weight="0.3295838" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,7 +509,8 @@
     <MESSAGE value="base in index" />
     <MESSAGE value="cahnged sumthing in static" />
     <MESSAGE value="fk it" />
-    <option name="LAST_COMMIT_MESSAGE" value="fk it" />
+    <MESSAGE value="2018-12-18 22:25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2018-12-18 22:25" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
@@ -771,7 +784,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -808,7 +821,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/track/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -818,7 +831,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/room/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
-          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
