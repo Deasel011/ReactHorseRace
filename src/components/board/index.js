@@ -42,11 +42,12 @@ class Board extends React.Component {
     render() {
         if(this.props.showResults) {
             const columns = [
-                {Header:'Top Horses', accessor:'name'},
+                {Header:'Horses', accessor:'name'},
+                {Header:'Position',accessor:'position.rank'},
                 {Header:'Steps Taken', accessor:'position.steps'},
                 {Header:'Time Spent',accessor:'position.timeInMillis'}
             ];
-            let width = this.state.width / 2 - 100;
+            let width = this.state.width / 2 - 200;
             return (
                 <ReactTable
                     data={this.state.horses}
