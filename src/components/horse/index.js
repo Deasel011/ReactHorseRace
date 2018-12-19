@@ -19,7 +19,7 @@ class Horse extends React.Component {
             x: 0,
             y: 0,
             horseId:props.horse.horseId,
-            lapsToWin:props.lapsToWIn || 1,
+            lapsToWin: 1,
             horseIndex: this.props.horseIndex || 0,
             rank: 0,
             running:false,
@@ -36,6 +36,10 @@ class Horse extends React.Component {
     }
 
     componentDidMount() {
+        let laps = new URLSearchParams(window.location.search).get('laps');
+        if(laps){
+            this.setState({lapsToWin:laps});
+        }
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
@@ -98,7 +102,7 @@ class Horse extends React.Component {
 
     placeWithStep() {
         let x = 0, y = 0, direction;
-        let step = this.state.step;
+        let step = this.state.step % 100;
         let index = this.state.horseIndex;
         switch (step < 17 ? 1 : step < 33 ? 2 : step < 67 ? 3 : step < 83 ? 4 : 5) {
             case 1:
