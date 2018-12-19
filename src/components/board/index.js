@@ -42,8 +42,8 @@ class Board extends React.Component {
     render() {
         if(this.props.showResults) {
             const columns = [
-                {Header:'Horses', accessor:'name'},
                 {Header:'Position',accessor:'position.rank'},
+                {Header:'Horses', accessor:'name'},
                 {Header:'Steps Taken', accessor:'position.steps'},
                 {Header:'Time Spent',accessor:'position.timeInMillis'}
             ];
@@ -57,6 +57,7 @@ class Board extends React.Component {
                     style={{position: "absolute", left: width}}
                     showPagination={false}
                     loadingText=""
+                    sortable={false}
                     defaultSorted={[{id:'position.steps', desc:true},{id:'position.timeInMillis', desc:false}]}
                 />
             )
