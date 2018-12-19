@@ -11,7 +11,7 @@ class routes extends Component {
             <BrowserRouter>
                 <Switch>
                     <Route path="/game" component={Game} />
-                    <Route path="/room/:room_id" component={Room}/>
+                    <Route path="/room" component={Room}/>
                     <Route path="/" component={Landing} />
                 </Switch>
             </BrowserRouter>

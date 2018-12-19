@@ -30,7 +30,6 @@ class Board extends React.Component {
     obtainGameInfo(){
         axios.get(`https://iahorserace.azurewebsites.net//games/`+this.state.roomid)
             .then(res => {
-                console.log(res.data.horses[0].position.steps);
                 if(!this.state.race_started){
                     this.setState({horses:res.data.horses});
                 }
